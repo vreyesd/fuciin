@@ -1,0 +1,24 @@
+---
+layout: default
+title: Elecciones
+---
+
+<div class="container">
+  
+  <div class="row">
+
+    {{ content }}
+
+    {%- if site.elecciones.size > 0 -%}
+      {%- for election in site.elecciones -%}
+        <div class="col-sm-4 election-preview">
+          <h3>{{ election.country | escape }}</h3>
+          <h4>{{election.type}}</h4>
+          
+          <a href="{{election.url | relative_url}}" class="show-more">Ver más</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+</div>

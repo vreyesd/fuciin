@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="container election-container">
+    <h1>{{page.country}}</h1>
+    <div class="row">
+        {% include showdata.html name="fecha" data=page.startDate %}
+        {% include showdata.html name="tipo" data=page.type %}
+        <div class="col-12">
+            {{content}}
+        </div>
+    </div>
+</article>
