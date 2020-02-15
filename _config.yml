@@ -22,8 +22,8 @@ title: Latinoamérica Elecciones 2020
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Esto es para la ONG Ciudadania Inteligente. Veamos si les agrada
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vreyesd.github.io/fuciin" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/fuciin" # the subpath of your site, e.g. /blog
+url: "https://vreyesd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vreyesd
 github_username: vreyesd
 
